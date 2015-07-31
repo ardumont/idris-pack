@@ -24,8 +24,7 @@
 
 ;;; Code:
 
-(require 'install-packages-pack)
-(install-packages-pack/install-packs '(idris-mode))
+(use-package idris-mode)
 
 (provide 'idris-pack)
 ;;; idris-pack.el ends here
